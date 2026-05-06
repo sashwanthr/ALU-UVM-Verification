@@ -1,0 +1,32 @@
+[2026-05-06 18:49:21 UTC] qrun -batch -access=rw+/. -uvmhome uvm-1.2 '-timescale' '1ns/1ns' -mfcu design.sv testbench.sv '-voptargs=+acc=npr'  -do  " run -all; exit"
+QuestaSim-64 qrun 2025.2 Utility 2025.05 May 31 2025
+
+# --- UVM Report Summary ---
+#
+# ** Report counts by severity
+# UVM_INFO    :  24
+# UVM_WARNING :   0
+# UVM_ERROR   :   0
+# UVM_FATAL   :   0
+#
+# ** Report counts by id
+# [Questa UVM]    2
+# [RNTST]         1
+# [SCOREBOARD]   19   ← 10 transactions × ~2 monitor samples each
+# [TEST_DONE]     1
+# [UVM/RELNOTES]  1
+#
+# Selected SCOREBOARD messages (UVM_LOW):
+# @ 6000:   PASS A=57  B=233 opcode=1 expected=80  actual=80
+# @ 26000:  PASS A=90  B=85  opcode=0 expected=175 actual=175
+# @ 46000:  PASS A=97  B=253 opcode=2 expected=97  actual=97
+# @ 66000:  PASS A=156 B=243 opcode=2 expected=144 actual=144
+# @ 86000:  PASS A=243 B=81  opcode=1 expected=162 actual=162
+# @ 106000: PASS A=166 B=121 opcode=2 expected=32  actual=32
+# @ 126000: PASS A=87  B=53  opcode=1 expected=34  actual=34
+# @ 146000: PASS A=191 B=23  opcode=2 expected=23  actual=23
+# @ 166000: PASS A=0   B=127 opcode=2 expected=0   actual=0
+# @ 186000: PASS A=70  B=3   opcode=0 expected=73  actual=73
+#
+# Total Errors: 0, Warnings: 0
+# End time: 14:49:34 on May 06,2026
