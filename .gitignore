@@ -1,0 +1,24 @@
+# =============================================================
+# .gitignore — ALU UVM Verification
+# =============================================================
+
+# QuestaSim build outputs
+qrun.out/
+work/
+*.log
+transcript
+modelsim.ini
+vsim.wlf
+*.wlf
+
+# Waveform dumps
+dump.vcd
+*.vcd
+*.fsdb
+
+# OS / editor
+.DS_Store
+*.swp
+*.swo
+.vscode/
+.idea/
